@@ -9,9 +9,7 @@ env:
   LOCATION: eastus
   TEMPLATE-FILE: .azure/bicep/webapp.bicep
   SUBSCRIPTION-ID: /subscriptions/6c042587-47b8-4495-993c-6e8d47b8629f
-  WEBAPP-NAME: az400-webapp-Ash
-  ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
-
+  WEBAPP-NAME: az400-webapp-Ash1011
 
 jobs:
   #Build, test and publish .net web project in repository
