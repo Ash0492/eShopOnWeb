@@ -8,7 +8,7 @@ env:
   RESOURCE-GROUP: rg-az400-eshoponweb-Ash
   LOCATION: eastus
   TEMPLATE-FILE: .azure/bicep/webapp.bicep
-  SUBSCRIPTION-ID: /subscriptions/6c042587-47b8-4495-993c-6e8d47b8629f
+  SUBSCRIPTION-ID: 6c042587-47b8-4495-993c-6e8d47b8629f
   WEBAPP-NAME: az400-webapp-Ash1011
 
 jobs:
@@ -22,7 +22,7 @@ jobs:
     - name: Setup .NET
       uses: actions/setup-dotnet@v1
       with:
-        dotnet-version: '6.0.0'
+        dotnet-version: '6.0.x'
         include-prerelease: true
     #Build/Test/Publish the .net project
     - name: Build with dotnet
